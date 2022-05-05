@@ -1,0 +1,2 @@
+# ALTSCHOOL
+I am a student at ATLSCHHOOL AFRICA
