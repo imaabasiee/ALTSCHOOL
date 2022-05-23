@@ -1,0 +1,49 @@
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 70vh;
+  background-color: #efe7dd;
+  color: #a06b35;
+}
+
+table {
+  border-spacing: 1em;
+  margin: 1rem auto;
+}
+td,
+th {
+  padding: 1rem 1.2rem;
+  border-radius: 6px;
+  border: 1px solid #a06b35;
+}
+
+#border-separate:checked ~ table {
+  border-collapse: separate;
+}
+
+#border-collapse:checked ~ table {
+  border-collapse: collapse;
+}
+
+.zero {
+  border-radius: 20px;
+}
+
+.head {
+  text-align: end;
+  font-size: 2em;
+}
+
+.button:nth-child(4n+1){
+  border-left: 1px solid black;
+}
+.button:nth-child(4n),.button:last-child{
+  background: #f98110;
+  color: #fff;
+}
+
+.btn {
+  background: grey;
+  color: white;
+}

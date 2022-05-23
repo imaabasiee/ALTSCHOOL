@@ -1,0 +1,239 @@
+body {
+  background-color: #efe7dd;
+
+  color: #a06b35;
+}
+
+h1,
+h2,
+footer {
+  font-family: Zen Loop;
+  color: #a84a0b;
+  font-weight: bolder;
+}
+
+.main-header-1 ul {
+  margin: 0;
+}
+.main-header-1 {
+  padding: 30px;
+  background-color: #a84a0b;
+}
+
+.nav-1 {
+  margin: 0;
+}
+
+.nav-1 li {
+  display: inline;
+  color: white;
+}
+
+.nav-1 a {
+  display: inline-block;
+  padding: 1.5em;
+  font-family: Zen Loop;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-1 a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav-1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  color: #a84a0b;
+}
+
+.main-nav-1 li {
+  padding: 0 5%;
+  color: #a84a0b;
+}
+
+.about {
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-band-image {
+  float: left;
+  margin: 15px;
+  height: 500px;
+}
+
+.content-section {
+  margin: 1em;
+  font-size: 1.5rem;
+}
+
+.main-footer {
+  background-color: #a84a0b;
+  color: white;
+  padding: 0.25em 0;
+}
+
+.main-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-footer-container ul {
+  flex-grow: 10;
+  text-align: center;
+  display: flex;
+  float: center;
+}
+
+footer {
+  align-items: center;
+}
+
+.footer-nav li {
+  padding: 0, 0.5em;
+  font-size: 2em;
+}
+
+.footer-nav a {
+  width: 100px;
+  height: 30px;
+  align-items: center;
+  display: inline;
+  color: white;
+  float: right;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  font-weight: normal;
+  color: white;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.topdown {
+  text-align: center;
+}
+.topdown-down a {
+  color: black;
+}
+
+.lets {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+/*CONTACT....................................STARTS*/
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.log {
+  text-align: center;
+  justify-content: center;
+}
+
+.login {
+  font-size: 2em;
+}
+.contact {
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.contact .content {
+  font-size: 36px;
+  font-weight: 500;
+  color: #a84a0b;
+}
+
+.contact .content {
+  font-weight: 500;
+  color: #a84a0b;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: 50%;
+  font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #a84a0b;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.container .contactInfo .box .text {
+  font-weight: 500;
+  color: #a84a0b;
+}
+
+.contactForm .send input[type="submit"] {
+  width: 100px;
+  background: #a84a0b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+input,
+textarea,
+select {
+  border: none;
+  outline: none;
+}
+
+.sen {
+  width: 100px;
+  background: #a84a0b;
+}
